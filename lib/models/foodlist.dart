@@ -4,12 +4,14 @@ class FoodList {
   String facebook = '';
   String mobile = '';
   String image = '';
+  //Stirng pikat = '';
 
   FoodList({
     required this.name,
     required this.website,
     required this.facebook,
     required this.mobile,
-    required this.image
+    required this.image,
+    //required this.pikat,
   });
 }
